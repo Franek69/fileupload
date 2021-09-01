@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang=de dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DownloadStart</title>
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <style>
+            body {background-color: powderblue; font-family:JetBrains Mono;}
+            h1   {color: blue;}
+            p    {color: black;}
+      </style>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Empfänger (Behörde) initialisiert den DateiDownload aus dem per E-mail erhaltenen Downloadlink</h1>
+      <h2>Anmeldung</h2>
+    <form class="" action="http://127.0.0.1:4567/startDownload" method="post" enctype="multipart/form-data">
+
+    <p>Behörde*<br>
+      <input type="text" id="behoerde" name="behoerde" value="" >
+    </p>
+    <p>Passwort*<br>
+      <input type="text" id="password" name="password" value="">
+    </p>
+      <p>
+        <input type="submit" name="" value="login">
+      </p>
+
+    </form>
+    </div>
+  </body>
+</html>

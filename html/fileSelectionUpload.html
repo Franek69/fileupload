@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=de dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Uploadstart</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <style>
+            body {background-color: powderblue; font-family:JetBrains Mono;}
+            h1   {color: blue;}
+            p    {color: black;}
+      </style>
+</head>
+<body>
+<div class="container">
+    <h1>Vom webserver generierte Antwortseite für die Dateiauswahl</h1>
+
+    <form class="" action="http://127.0.0.1:4567/UploadMongoDB" method="post" enctype="multipart/form-data">
+        <input type="file" id="myfile" name="uploaded_file"><br><br>
+        <input type="submit" value="Hochladen">
+    </form>
+    <h2>Achtung! Dateien dürfen nur im pdf-Format </h2>
+    <h2> und mit einer maximalen Dateigröße von 3MB </h2>
+    <h2> hochgeladen werden! </h2>
+</div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang=de dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Downloadstart</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    </head>
+<body>
+<div class="container">
+    <h1>Vom webserver generierte Email fuer den Dateidownload</h1>
+    <div> Teilnehmer "+ nachname + ", " + vorname + "  ID: "+ id +", hat folgende Datei hochgeladen: </div>+
+    <br>
+    <div><b>Dateiname </b></div>
+    <br>
+
+    <form class="" action="http://127.0.0.1:4567/DownloadMongoDB/5fd0aed02d2ae56623c5cb2b" method="get" enctype="multipart/form-data">
+        <div><input id="ObjectId" name="ObjectId" type="text" value= "5fd0cde12e929773143c2579"></div>
+        <div><input type="submit" value="Datei herunterladen"></div>
+        <br>
+        <div> Dies ist eine automatisch generierte Nachricht, bitte antworten Sie nicht an diesen Absender.</div>
+        <br>
+        <div> Mit freundlichen Gruessen </div>
+        </form>
+    </div>
+</body>
+</html>

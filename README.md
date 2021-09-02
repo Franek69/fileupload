@@ -6,6 +6,6 @@ einschließlich einer E-Mail-Routine zur Information der zuständigen Behörde m
 <br>
 Vorgaben waren Java-Spark-Framework, MongoDB und KeinPHP!<br> 
 <br>
-Die komplette Projektarbeit liegt im <a href="https://github.com/Franek69/fileupload/tree/master/doc">doc-Ordner.</a> <br>
+Die Projektarbeit liegt im <a href="https://github.com/Franek69/fileupload/tree/master/doc">doc-Ordner.</a> <br>
 <br>
 Pandemiebedingt komplett in Eigenregie erstellt.

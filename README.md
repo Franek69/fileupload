@@ -1,3 +1,6 @@
 # fileupload
-Mein Projekt für die IHK Prüfung. Vorgaben waren Java-Spark-Framework, MongoDB und KeinPHP!<br> 
+Mein Projekt für die IHK Prüfung. <br>
+Thema: "Planung und Erstellung eines Moduls zum Upload von Dokumenten <br>
+einschließlich einer E-Mail-Routine zur Information der zuständigen Behörde mit einer Downloadoption"<br>
+Vorgaben waren Java-Spark-Framework, MongoDB und KeinPHP!<br> 
 Pandemiebedingt komplett in Eigenregie erstellt.
